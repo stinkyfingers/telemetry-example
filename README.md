@@ -41,6 +41,6 @@ https://docs.datadoghq.com/tracing/setup_overview/custom_instrumentation/go#dist
 
 `curl localhost:5551`
 
-View traces at https://app.datadoghq.com/apm/traces.
+View traces at https://app.datadoghq.com/apm/traces. TraceID and SpanID are dumped to stdout. Note that an http request across services has the same SpanID. 
 
 
